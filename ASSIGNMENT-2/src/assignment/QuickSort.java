@@ -34,11 +34,9 @@ class QuickSort {
 		int[] a = { 6, 3, 9, 5, 2, 8 };
 		int n = a.length;
 		quickShort(a, 0, n - 1);
-//		for (int i = 0; i < a.length; i++) {
-//			System.out.print(a[i]);
-//
-//		} 
-		
-		System.out.println(a.toString());	
+		for (int i = 0; i < a.length; i++) {
+			System.out.print(a[i]);
+
+		} 			
 	}
 }
